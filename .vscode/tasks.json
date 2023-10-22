@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Compile C++ Program",
+            "type": "shell",
+            "command": "g++",
+            "args": ["-Wall", "tu_codigo.cpp", "-o", "tu_programa.exe"],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        }
+    ]
+}
