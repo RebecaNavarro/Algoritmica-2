@@ -11,6 +11,8 @@ bool sirve(int x, int y){ //valor analizado, min o max que es nuestro limite
     }
 }
 
+//para el coomit
+
 int size;
 
 int busquedaBinaria(int x){//x: el minimo o maximo, N: tamaño
